@@ -14,7 +14,7 @@ body {
 
 .wrapper {
   max-width: 1440px;
-  height: 800px;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,7 +127,13 @@ h1 {
     flex-direction: column;
   }
 
+
   .left {
     margin-bottom: 50px;
+  }
+
+  .game {
+    width: 100vw;
+    height: 200;
   }
 }
